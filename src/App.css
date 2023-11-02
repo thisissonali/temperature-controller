@@ -1,0 +1,55 @@
+.temperature-container{
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 200px;
+  width:200px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+ 
+  
+}
+.docBodyParent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 670px;
+}
+.temperature-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #164863;
+  width: 350px;
+  padding-top: 2rem;
+  padding-bottom: 30px;
+  border-radius: 1rem;
+  box-shadow: 0 18px 28px 8px rgba(0.5, 0.5, 0.5, 0.5), 0 6px 20px 8px rgba(0, 0, 0, 0.19);
+}
+.warm{
+  background-color: #F99417;
+}
+.cool{
+  background-color: #0174BE;
+}
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+}
+.temperature-controller{
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: rgb(99, 97, 97);
+    height: 80px;
+    width: 80px;
+    margin-top: 2.5rem;
+    /* margin-right: 6rem; */
+    
+}
+span{
+  color: #fff;
+  font-size: 35px;
+}
